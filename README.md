@@ -1,7 +1,7 @@
 # csv2ris
 Simple Python script to convert csv files into ris files
 
-This script takes as input a .csv spreadsheet with each reference on a separate row, and the first row consiting of two-letter ris tags that serve as column headers. See the Wikipedia entry on the .ris file format for a list of tags and their meanings: https://en.wikipedia.org/wiki/RIS_(file_format). See the Example.csv file for a template.
+This script takes as input a .csv spreadsheet with each reference on a separate row, and the first row consisting of two-letter ris tags that serve as column headers. See the Wikipedia entry on the .ris file format for a list of tags and their meanings: https://en.wikipedia.org/wiki/RIS_(file_format). See the Example.csv file for a template.
 <br>
 <br>
 **Some things to keep in mind:**
