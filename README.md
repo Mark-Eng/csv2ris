@@ -6,7 +6,7 @@ This script takes as input a .csv spreadsheet with each reference on a separate 
 <br>
 **Some things to keep in mind:**
 
-- The csv file MUST have a column with the header 'TY' that defines each item's type. Check the ris Wikipedia page for a list of acceptable values for this field.
+- The csv file MUST have a column with the header 'TY' that defines each item's type. Check the ris Wikipedia page for a list of acceptable values for this field. All other tags/fields are optional.
 - The script should take care of any special characters in the import .csv file, but just in case, it's wise to save your file as type "CSV UTF-8"
 - The author (AU) and keyword (KW) columns can have multiple entries for each item. These should be separated by a semicolon and a space. So the content of an AU cell might look like: Smith, A.; Chakrabarti, S.;  Osei, D.
 - Usually your source data will have page numbers in the format "42-55", but note that .ris files must have the starting page (SP) and ending page (EP) in separate fields. You can use Excel's "text to columns" feature to split the page numbers in your .csv.
